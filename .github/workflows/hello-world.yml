@@ -1,8 +1,9 @@
-name: Hello World Workflow
+- name: Hello World Workflow
+  run: echo "Start Hello World Workflow"
 on:
  push:
   branches:
-    main
+     main
 jobs:
  say-hello:
     runs-on: ubuntu-latest
